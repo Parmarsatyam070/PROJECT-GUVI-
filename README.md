@@ -57,19 +57,3 @@ License :-
 . This project is licensed under the MIT License. See the LICENSE file for details.
 
 For more information, visit the PROJECT-GUVI GitHub Repository.
-
-
-
-
-
-
-
-
-Sources
-
-
-
-
-Tools
-
-
