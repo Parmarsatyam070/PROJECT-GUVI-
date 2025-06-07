@@ -77,7 +77,7 @@ public class Signup2 extends JFrame implements ActionListener {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // 🔽 Enter key focus chain:
+      
         religionBox.addActionListener(e -> categoryBox.requestFocus());
         categoryBox.addActionListener(e -> incomeBox.requestFocus());
         incomeBox.addActionListener(e -> educationBox.requestFocus());
