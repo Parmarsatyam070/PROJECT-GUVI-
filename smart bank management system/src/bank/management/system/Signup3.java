@@ -74,7 +74,6 @@ public class Signup3 extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
 
-        // Enter Key Navigation Setup:
         saving.addKeyListener(new EnterKeyAdapter(current));
         current.addKeyListener(new EnterKeyAdapter(fd));
         fd.addKeyListener(new EnterKeyAdapter(rd));
