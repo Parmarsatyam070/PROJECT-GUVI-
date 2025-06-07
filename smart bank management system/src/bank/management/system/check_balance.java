@@ -67,7 +67,7 @@ public class check_balance extends JFrame implements ActionListener {
         getContentPane().setBackground(new Color(230, 240, 255));
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 
-        // Enquiry logic to fetch balance
+       
         getBalanceFromDB();
 
         setVisible(true);
