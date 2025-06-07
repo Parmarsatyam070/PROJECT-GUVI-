@@ -78,7 +78,7 @@ public class Signup1 extends JFrame implements ActionListener {
         nextBtn.addActionListener(this);
         add(nextBtn);
 
-        // 🔽 Enter key navigation between fields
+  
         nameField.addActionListener(e -> fnameField.requestFocus());
         fnameField.addActionListener(e -> dobField.requestFocus());
         dobField.addActionListener(e -> emailField.requestFocus());
